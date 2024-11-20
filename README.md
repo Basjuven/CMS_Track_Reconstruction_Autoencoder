@@ -6,8 +6,10 @@ This repository contains a Python implementation of a Linear Autoencoder for rec
 ## Dataset
 The dataset used is CMS Open Data from [CERN Open Data Portal](https://opendata.cern.ch/record/7730).
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/CMS-Track-Reconstruction-Autoencoder.git
-   cd CMS-Track-Reconstruction-Autoencoder
+## Outputs
+The code generates:
+
+Original and reconstructed track histograms. Reconstruction Mean Square Error (MSE) for validation
+
+## Results
+The model demonstrated an MSE of 264.15, 427.62, and 155.73 which reflects the model's capability to accurately reconstruct tracks despite the inherent noise in experimental data. The histograms visually compare original and reconstructed tracks.
